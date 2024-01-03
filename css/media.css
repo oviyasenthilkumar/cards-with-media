@@ -1,0 +1,38 @@
+/* mobile view */
+@media(min-width:320px){
+	.col{
+	width:100%;
+	}
+	p{
+	font-size:6px;
+	}
+	h2{
+		font-size:11px;
+	}
+}
+
+/* tab view */
+@media(min-width:720px){
+	.col{
+	width:50%;
+	}
+	p{
+	font-size:8px;
+	}
+	h2{
+		font-size:13px;
+	}
+}
+
+/* laptop view */
+@media(min-width:960px){
+	.col{
+	width:33.33%;
+	}
+	p{
+	font-size:11px;
+	}
+	h2{
+		font-size:16px;
+	}
+}
